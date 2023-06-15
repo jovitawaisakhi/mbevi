@@ -44,10 +44,10 @@
 }
 
 .gadget-promotion{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
-
+    font-family: Georgia;
 }
 
 .content-slider{
@@ -61,8 +61,6 @@
     height: 350px;
     overflow: hidden;
     position: relative;
-    border: 15px;
-    border-color: black;
 }
 
 .slide{
@@ -89,8 +87,9 @@
     border-radius: 50%;
     z-index: 10px;
     cursor: pointer;
-    background-color: white;
+    background-color: ghostwhite;
     font-size: 18px;
+    /* border: solid 1px black; */
   }
 
   .btn:active {
@@ -107,3 +106,90 @@
     right: 2%;
   }
 
+.lower-content{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+
+.container-title{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.new-products{
+    background-color: black;
+    color: white;
+    padding: 18px 18px 18px 18px;
+    border-radius: 60px;
+    font-family: Georgia;
+}
+
+.cards-container{
+    width: 90%;
+    height: 100%;
+    display: grid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 10px;
+    row-gap: 110px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-items: center;
+  align-items: center;
+}
+
+.card-backdrop{
+    background-color: #161039;
+    display: flex;
+    border-radius: 50px;
+    flex-direction: column;
+    color:white;
+    align-items: center;
+    justify-items: center;
+    width: 80%;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.right-arrow{
+    display: flex;
+    justify-content: end;
+    align-content: end;
+}
+
+.details-card{
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    width: 60%;
+    padding: 10px 10px 10px 10px;
+}
+
+.card-backdrop img{
+    width: 50%;
+}
+
+.container-details{
+    margin-top: 10px;
+    display: flex;
+}
+
+.container-details h4{
+    margin-left: 10px;
+}
+
+.circle-color{
+    width: 10px;
+    border-radius: 50px;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: #4b4845;
+}
